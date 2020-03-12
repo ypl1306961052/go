@@ -103,8 +103,8 @@ func service1() {
 	fmt.Println("/upload")
 	http.HandleFunc("/from", form)
 	fmt.Println("/from")
-	fmt.Println("端口:9090 已启动")
-	log.Fatal(http.ListenAndServe("127.0.0.1:9090", nil))
+	fmt.Println("端口:9091 已启动")
+	log.Fatal(http.ListenAndServe("127.0.0.1:9091", nil))
 }
 
 //自定义服务参数
